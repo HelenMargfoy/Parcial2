@@ -1,12 +1,16 @@
 # 🧠**Análisis de PIB Global y Modelos de Redes Neuronales**
 
 ## Autores
+
 **Helen Melissa Margfoy Contreras**](https://www.linkedin.com/in/helenmargfoy/)
 Estudiante de Economía y Gobierno y asuntos Públicos Universidad de Los Andes
+
 [**Cristian Oviedo**](https://www.linkedin.com/in/cristian-oviedo-78362524b/)
 Estudiante de economía Universidad de Los Andes
+
 [**Tomás Acevedo Echeverría**](https://www.linkedin.com/in/tom%C3%A1s-acevedo-echeverr%C3%ADa-913a35212?trk=contact-info)
 Estudiante de economía Universidad de Los Andes
+
 [**Andres Felipe Ballén Caceres**](http://www.linkedin.com/in/andr%C3%A9s-ball%C3%A9n)
 Estudiante de economía Universidad de Los Andes
 
