@@ -16,7 +16,9 @@ Estudiante de economía Universidad de Los Andes
 
 ## 📚 Descripción
 
-Este proyecto aplica redes neuronales para analizar el conjunto de datos "World GDP Dataset" del World Bank Group, que contiene información sobre el Producto Interno Bruto (PIB) de países desde 1960 hasta 2022. Se transformará un problema de regresión en clasificación para construir y evaluar diferentes modelos de redes neuronales, comparando su rendimiento.
+Este proyecto analiza la relación entre el **Producto Interno Bruto (PIB)**, la educación y la clasificación económica de los países mediante **redes neuronales**. Utilizamos el conjunto de datos **"World GDP Dataset"** del World Bank Group, que contiene información sobre el PIB de distintos países desde 1960 hasta 2022, y lo combinamos con el conjunto de datos **"Global Education Dataset"**, que proporciona información sobre los **años de escolaridad ajustados por aprendizaje**.  
+
+Transformamos este problema de **regresión en clasificación**, categorizando a los países en tres niveles de PIB: **Bajo, Medio y Alto**. Posteriormente, entrenamos diferentes modelos de redes neuronales para predecir esta clasificación y evaluamos su desempeño mediante métricas como la **matriz de confusión y la curva ROC**.
 
 ## 🎯 Planteamiento del Problema
 
@@ -24,10 +26,12 @@ El objetivo es predecir la clasificación de PIB de los países como "Bajo", "Me
 
 ## 📂 Contenido del Repositorio
 
-- **notebooks/**: Carpeta con los cuadernos de Jupyter para análisis y construcción de modelos.
-- **gdp_data.csv**: Datos del PIB de los países.
-- **country_codes.csv**: Clasificación de países por región y grupo de ingreso.
-- **models/**: Carpeta con los modelos exportados.
+- **`notebooks/`** → Carpeta con los cuadernos de Jupyter para análisis, procesamiento de datos y construcción de modelos.  
+- **`datasets/`** → Carpeta con los archivos de datos utilizados:  
+  - **`gdp_data.csv`** → Datos del PIB de los países.  
+  - **`country_codes.csv`** → Clasificación de países por región y grupo de ingreso.  
+  - **`learning-adjusted-years-of-schooling.csv`** → Años de escolaridad ajustados por aprendizaje.  
+- **`models/`** → Carpeta con los modelos de redes neuronales exportados.  
 
 ## 🤖 Algoritmos Implementados
 
@@ -38,11 +42,16 @@ El objetivo es predecir la clasificación de PIB de los países como "Bajo", "Me
 
 ## 🔍 Variables de la base de datos
 
-1. **year**: Año del dato del PIB (tipo de dato: entero).
-2. **country**: Nombre del país (tipo de dato: texto).
-3. **gdp**: Valor del Producto Interno Bruto (PIB) de cada país por año (tipo de dato: flotante).
-4. **region**: Región geográfica del país (tipo de dato: texto).
-5. **income_group**: Clasificación por grupo de ingreso del país (tipo de dato: texto).
+### 📌 **Variables Principales**
+- **`year`** → Año del dato del PIB (tipo: entero).  
+- **`country`** → Nombre del país (tipo: texto).  
+- **`gdp`** → Valor del Producto Interno Bruto (PIB) de cada país por año (tipo: flotante).  
+- **`region`** → Región geográfica del país (tipo: texto).  
+- **`income_group`** → Clasificación por grupo de ingreso del país (tipo: texto).  
+
+### 📌 **Variable Adicional Utilizada**
+- **`learning_adjusted_years_of_schooling`** → Años de escolaridad ajustados por aprendizaje (tipo: flotante).  
+
 
 ## 📄 Licencia
 
